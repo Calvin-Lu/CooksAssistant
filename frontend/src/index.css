@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  height:89px;
+}
+
+.navbar-button {
+  margin-right:10px;
+}
+
+.navbar-button-text {
+  color:brown;
+}
+
+.navbar-text {
+  font-size:20px;
+}
+
+.navbar-logged-in {
+  display:flex;
+  width:225px;
+}
+
+.navbar-logout-button {
+  margin-left:10px;
+}
+
+.popup-outer {
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:rgb(0,0,0,0.7);
+}
+
+.popup {
+  width: 300px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border:2px black solid;
+}
+
+.popup-inner {
+  position: relative;
+  padding:32px;
+  width:100%;
+  background-color:white;
+}
+
+.popup-inner-button {
+  margin-top:15px;
+  margin-left:25px;
+}
+
+.main-container {
+  width:100vw;
+}
+
+.recipes-box, .main-display, .ingredients-box {
+  height:calc(100vh - 89px);
+}
+
+.recipes-box, .ingredients-box {
+  display:flex;
+  flex-direction:column;
+  flex:wrap;
+}
+
+
+.recipes-box {
+  border-right:2px lightgray solid;
+}
+
+.main-display {
+  border-right:2px lightgray solid;
+}
+
+.ingredients-box {
+  border-right: 2px lightgray solid;
+}
+
+.recipes-box-header, .ingredients-box-header, .main-display-header {
+  display:flex;
+}
+
+.add-ingredient-button, .add-recipe-button {
+  margin-top:5px;
+  margin-left:10px;
+  width:40px;
+  height:40px;
+}
+
+.ingredients-list, .recipes-list {
+  background-color:beige;
+}
+
+.ingredients-list-item, .recipes-list-item {
+  border:1px solid gray;
+  font-size:20px;
+  cursor:pointer;
+  background-color:rgb(153,168,50);
+}
+
+.depleted-item {
+  background-color:rgb(168,70,50);
+}
+
+.unavailable-recipe {
+  background-color:rgb(168,70,50)
+}
+
+.add-recipe-form-header {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.add-recipe-form-ingredients-list {
+  width:100%;
+  height:250px;
+  background-color:beige;
+  border:2px rgb(0,0,0,0.4) solid;
+  overflow:auto;
+}
+
+.add-recipe-form-ingredient {
+  margin:0;
+  cursor:pointer;
+  font-size:20px;
+  border-bottom:1px rgb(0,0,0,0.2) solid;
+}
+
+.add-recipe-form-ingredient-selected, .add-recipe-form-ingredient-to-delete {
+  margin:0;
+  background-color:rgb(255,193,7)
+}
+
+.add-recipe-form-ingredient-label, .recipe-details-ingredient {
+  margin-bottom:0;
+}
+
+.add-recipe-form-selected-ingredients-list, .recipe-details-ingredients-list  {
+  width:100%;
+  height:85%;
+  border:1px rgb(0,0,0,0.4) solid;
+  overflow:auto;
+}
+
+.add-recipe-form-selected-ingredient {
+  cursor:pointer;
+}
+
+.add-recipe-form-popup {
+  width:600px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border: 2px black solid;
+}
+
+.add-recipe-form-popup-inner {
+  padding:32px;
+  width:100%;
+  background-color:white;
+
+}
+
+.add-recipe-form-popup-inner-child {
+  display:flex;
+  justify-content:space-between;
+}
+
+.add-recipe-form-popup-inner-child-column {
+  width:46%;
+}
+
+.add-recipe-form-popup-button-row {
+  display:flex;
+  justify-content:center;
+}
+
+.add-recipe-form-add-ingredient-button {
+  margin-top:5px;
+  margin-left:5px;
+}
+
+.add-recipe-form-selected-ingredients-list-item {
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+}
+
+.delete-button {
+  border-radius:50%;
+  border:2px solid rgb(217,83,79);
+  background-color:rgb(217,83,79);
+  width:20px;
+  height:20px;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  margin-right:5px;
+  margin-top:2px;
+}
+
+.main-display-control-panel {
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+}
+
+.main-display-recipe {
+  
+}
+
+.main-display-recipe-title {
+  text-align:center;
+}
