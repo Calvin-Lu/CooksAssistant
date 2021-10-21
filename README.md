@@ -31,7 +31,7 @@ Example:
 Saved recipes will be listed in the recipes column:
 ![Alt text](frontend/src/imgs/InterfaceAfterRecipeAdded.png)
 Recipes that cannot be prepared with the currently available ingredients will be highlighted in red.
-![Alt text](frontend/src/imgs/)
+![Alt text](frontend/src/imgs/MultipleRecipesListed.png)
 ## View recipes that can be prepared with available ingredients
 Recipes that can be prepared with the currently available ingredients can be viewed in the "Here's what I can cook" column. The "Prev" and "Next" buttons will cycle between available recipes.
 ![Alt text](frontend/src/imgs/NextRecipe.png)
