@@ -13,6 +13,7 @@ Web application that tracks recipes and ingredients, and displays the recipes th
     6. [Add a recipe](#addARecipe)
     7. [View Recipes that can be prepared with available ingredients](#viewAvailableRecipes)
 2. [Built With](#builtWith)
+3. [Todo](#todo)
 
 # How to Use <a name="howToUse"></a>
 
@@ -63,3 +64,7 @@ Recipes that can be prepared with the currently available ingredients can be vie
 - [Express](https://expressjs.com/)
 - [Node](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
+
+# Todo <a name="todo"></a>
+- Sorting listed items functionality: allow users to sort ingredients/recipes alphabetically or by availability
+- Recipe instructions: allow users to optionally include preparation instructions and estimated preparation times when adding/modifying recipes
